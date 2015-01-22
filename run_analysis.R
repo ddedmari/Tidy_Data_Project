@@ -144,6 +144,7 @@ merged_data_with_activity_names_tbl<-tbl_df(merged_data_with_activity_names)
 rm("merged_data", "merged_data_with_activity_names")
 
 # ----- in this code section, i am going to group the data and summarize it to create a tidy data set -------
+# the final tidy data has the average of each variable for each activity and each subject
 
 tidy_data<-merged_data_with_activity_names_tbl %>%
 select(-Activity) %>%

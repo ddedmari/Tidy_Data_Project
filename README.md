@@ -61,6 +61,9 @@ I am listing down all the steps I perform to go from the input data files to the
 11. I write the tidy data set into a text file called tidy_data.txt which is the final output required.
 
 
+### Output: 
+
+The final data tidy data set contains the average of each variable for each activity and each subject per row. There are a total of 68 columns (Subject, ActivityName, 66  means of Features) 
 
 
 ### Notes:
