@@ -33,12 +33,12 @@ Out of the full data set, I am using the following files only (their description
 
 * features.txt - list of 561 features in the input data set.
 * activity_labels.txt - files which contains the mapping from activity code to activity name
-* X_test.txt - test data
-* y_test.txt - test activity data
-* subject_test.txt - test subjects data
-* X_train.txt - training data
-* y_train.txt - training activity data
-* subject_train.txt - training subjects data
+* X_test.txt - test data where each row identifies the feature measurements for each user and activity
+* y_test.txt - Each row identifies the activity performed for each window sample in the test data. Its range is from 1 to 6. 
+* subject_test.txt - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+* X_train.txt - training data where each row identifies the feature measurements for each user and activity
+* y_train.txt - Each row identifies the activity performed for each window sample in the training data. Its range is from 1 to 6.
+* subject_train.txt - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 The relationships between the various files are illustrated in the figure below:
 
@@ -69,8 +69,9 @@ If you want to read the tidy data set, please use the following command:
 
 tidy_data <- read.table("tidy_data.txt", header = TRUE)
 
-### License:
+### Acknowledgments:
 
+*The input files relations diagram is sourced from David Hood. All rights belong to the author of the image.*
 
 
 
