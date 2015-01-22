@@ -40,6 +40,10 @@ Out of the full data set, I am using the following files only (their description
 * y_train.txt - training activity data
 * subject_train.txt - training subjects data
 
+The relationships between the various files are illustrated in the figure below:
+
+![Input files relations](https://github.com/ddedmari/Tidy_Data_Project/blob/master/Slide2.png)
+
 ### My Approach to generate Tidy Data set:
 
 I am listing down all the steps I perform to go from the input data files to the tidy data set output:
