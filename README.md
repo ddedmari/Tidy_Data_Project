@@ -49,7 +49,7 @@ I am listing down all the steps I perform to go from the input data files to the
 3. However, i am not going to concider the columns which have meanFreq() in them since i think these are frequencies rather than mean values by themselves. There are 13 such variables.
 4. I remove the above from my selected features. This gives me the final 66 columns i will consider to process further into my tidy data set.
 5. Next I clean up the variable names by applying multiple transformations as given in the run_analysis.R comments. I am going to keep the t prefix for time domain and f prefix for frequency domain variables.
-6. I then load and combine the test activity, test users and the selected variables from the test data into single df called test_data.
+6. I then load and combine the test activity, test users and the selected variables from the test data into single df called test_data. During this step, I also give meaning full variable names to my columns.
 7. I apply similar steps to combine the training users, activities and training data set into a single df called train_data.
 8. Finally i merge both test and training data dfs into a single df called merged_data.
 9. I convert the merged_data df into a tbl_df since i want to use dplyr package.
@@ -60,6 +60,10 @@ I am listing down all the steps I perform to go from the input data files to the
 
 
 ### Notes:
+
+If you want to read the tidy data set, please use the following command:  
+
+tidy_data <- read.table("tidy_data.txt", header = TRUE)
 
 ### License:
 
