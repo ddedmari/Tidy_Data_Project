@@ -11,9 +11,9 @@ Created Date: 23 Jan 2015
 
 This repo includes the following files:  
   
-  ** README.md - This doc gives an over all picture of the contents of the repo and how they relate to each other  
-  ** Codebook.md - This doc gives a list of features of columns in the tidy data set along with their explanations
-  ** run_analysis.R - This is the R script which generates the tidy data set from the input files.   
+  * README.md - This doc gives an over all picture of the contents of the repo and how they relate to each other  
+  * Codebook.md - This doc gives a list of features of columns in the tidy data set along with their explanations
+  * run_analysis.R - This is the R script which generates the tidy data set from the input files.   
 
 ### Introduction:  
 
@@ -31,14 +31,14 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 Out of the full data set, I am using the following files only (their descriptions are also provided):
 
-** features.txt - list of 561 features in the input data set.
-** activity_labels.txt - files which contains the mapping from activity code to activity name
-** X_test.txt - test data
-** y_test.txt - test activity data
-** subject_test.txt - test subjects data
-** X_train.txt - training data
-** y_train.txt - training activity data
-** subject_train.txt - training subjects data
+* features.txt - list of 561 features in the input data set.
+* activity_labels.txt - files which contains the mapping from activity code to activity name
+* X_test.txt - test data
+* y_test.txt - test activity data
+* subject_test.txt - test subjects data
+* X_train.txt - training data
+* y_train.txt - training activity data
+* subject_train.txt - training subjects data
 
 ### My Approach to generate Tidy Data set:
 
