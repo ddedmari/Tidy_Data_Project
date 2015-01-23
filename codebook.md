@@ -33,7 +33,7 @@ I have applied the following transformations to make my feature names tidy:
 * expanded short form "Acc" to "Acceleration" to make it more readable 
 * expanded short form "Gyro" to "AngularVelocity" to make it more meaningful
 * expanded short form "Mag" to "Magnitude" to make it more readable          
-* Converted variable names to uniform case where I initial letters are capitalized
+* Converted variable names to uniform case where initial letters of words are capitalized
 * Expanded X$ to Xaxis to make it more readable
 * Expanded Y$ to Yaxis to make it more readable
 * Expanded Z$ to Zaxis to make it more readable
@@ -41,18 +41,18 @@ I have applied the following transformations to make my feature names tidy:
 
 ## Notes: 
 
-I have decided to keep the "t" and "f" prefixes for time domain and frequency domain signals respectively.
+I have decided to keep the "t" and "f" prefixes for time domain and frequency domain signals respectively. To remove any ambiguity, I have added a column to the feature list below clearly indicating what domain the signal belongs to.
 
-Std stands for standard deviation
+Std stands for standard deviation.
 
 
 
 Here is a description of each feature:
 
 Feature	|	Type	|	Description	|	Domain
----------------------------------------------------------		-----------------		-----------------------		-------------
-Subject	|	Int	|	Id of Subject	|	
-ActivityName	|	Factor of 6 levels	|	Name of Activity	|	
+--------|-----------|---------------|--------------------
+Subject	|	Int	|	Id of Subject	|	Not Applicable
+ActivityName	|	Factor of 6 levels	|	Name of Activity	|	Not Applicable
 tBodyAccelerationMeanXaxis	|	Num	|	Mean of Body Acceleration along the X Axis	|	Time
 tBodyAccelerationMeanYaxis	|	Num	|	Mean of Body Acceleration along the Y Axis	|	Time
 tBodyAccelerationMeanZaxis	|	Num	|	Mean of Body Acceleration along the Z Axis	|	Time
@@ -118,12 +118,6 @@ fBodyAccelerationJerkMagnitudeStd	|	Num	|	Mean of Body Jerk Acceleration Magnitu
 fBodyAngularVelocityMagnitudeMean	|	Num	|	Mean of Body Angular Velocity Magnitude mean	|	Frequency
 fBodyAngularVelocityMagnitudeStd	|	Num	|	Mean of Body Angular Velocity Magnitude Std	|	Frequency
 fBodyAngularVelocityJerkMagnitudeMean	|	Num	|	Mean of Body Angular Velocity Jerk Magnitude mean	|	Frequency
-fBodyAngularVelocityJerkMagnitudeStd	|	Num	|	Mean of Body Angular Velocity Jerk Magnitude Std	|	Frequency	
-
-
-
-
-
-
+fBodyAngularVelocityJerkMagnitudeStd	|	Num	|	Mean of Body Angular Velocity Jerk Magnitude Std	|	Frequency
 
 ### Source:
