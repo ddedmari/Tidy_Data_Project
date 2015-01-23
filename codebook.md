@@ -20,7 +20,7 @@ This gave me a total of 79 features. However, I am not going to concider the col
  
  Also, after combining the test and training data set, I have grouped the final tidy data by Subject and Activity and then taken the Mean of each row.
  
- ** As such, each cell value represents the Mean value of the feature for that subject and activity.**
+ **As such, each cell value represents the Mean value of the feature for that subject and activity.**
  
  
 ### Feature Names Cleanup:
