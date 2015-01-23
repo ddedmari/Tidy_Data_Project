@@ -121,3 +121,8 @@ fBodyAngularVelocityJerkMagnitudeMean	|	Num	|	Mean of Body Angular Velocity Jerk
 fBodyAngularVelocityJerkMagnitudeStd	|	Num	|	Mean of Body Angular Velocity Jerk Magnitude Std	|	Frequency
 
 ### Source:
+
+The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
+A full description is available at the site where the data was obtained from:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
