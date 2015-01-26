@@ -34,9 +34,9 @@ I have applied the following transformations to make my feature names tidy:
 * expanded short form "Gyro" to "AngularVelocity" to make it more meaningful
 * expanded short form "Mag" to "Magnitude" to make it more readable          
 * Converted variable names to uniform case where initial letters of words are capitalized
-* Expanded X$ to Xaxis to make it more readable
-* Expanded Y$ to Yaxis to make it more readable
-* Expanded Z$ to Zaxis to make it more readable
+* Expanded the 'X' at the end to 'Xaxis' to make it more readable and identify that we are referring to the orientation.
+* Expanded the 'Y' at the end to 'Yaxis' to make it more readable and identify that we are referring to the orientation.
+* Expanded the 'Z' at the end to 'Zaxis' to make it more readable and identify that we are referring to the orientation.
 
 
 ## Notes: 
